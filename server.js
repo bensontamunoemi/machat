@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 require('dotenv').config();
 const resolvers = require('./graphql/resolves');
 const typeDefs = require('./graphql/typeDefs');
+
 // Resolvers define the technique for fetching the types defined in the
 // schema. This resolver retrieves books from the "books" array above.
 

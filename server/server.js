@@ -23,6 +23,7 @@ const db = async () => {
 
 // execute database connection
 db();
+
 const server = new ApolloServer({
 	typeDefs,
 	resolvers,
